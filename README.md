@@ -47,7 +47,7 @@ php artisan migrate
 Colocar rodar a API
 
 ```bash
-php artisan server
+php artisan serve
 ```
 ## Documentação da API
 
