@@ -33,7 +33,7 @@ Depois instalar as dependencias:
 ```bash
 composer install
 ```
-Gerar a secret key do projeto:
+Gerar a key do projeto:
 
 ```bash
 php artisan key:generate
@@ -42,6 +42,12 @@ Migrar o banco de dados (Criar as tabelas)
 
 ```bash
 php artisan migrate
+```
+
+Gerar a secret key do JWT
+
+```bash
+php artisan jwt:secret
 ```
 
 Colocar rodar a API
