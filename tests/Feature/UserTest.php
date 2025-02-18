@@ -42,7 +42,6 @@ class UserTest extends TestCase
         $response->assertJsonValidationErrors(['name', 'email', 'password']);
     }
 
-    // Teste de Login
     public function test_user_can_login(): void
     {
         $user = User::factory()->create([
