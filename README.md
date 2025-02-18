@@ -81,4 +81,19 @@ POST /api/auth/login
 | `password` | `string` | **Senha do usuário**.  |
 
 
+Extensões que tem que estar ativadas no php.ini pra funcionar o Laravel
+```bash
+extension=mbstring
+extension=xml
+extension=curl
+extension=openssl
+extension=pdo
+extension=tokenizer
+extension=json
+extension=ctype
+extension=fileinfo
+extension=bcmath
+extension=zip
+extension=sodium
 
+```
