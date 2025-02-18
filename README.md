@@ -55,6 +55,11 @@ Colocar rodar a API
 ```bash
 php artisan serve
 ```
+
+Caso não consiga fazer a instalação, eu subi a API no meu servidor.
+URL: [https://desafio-sicredi.run.place/api/](https://desafio-sicredi.run.place/api/)
+
+
 ## Documentação da API
 
 #### Registrar usuário
